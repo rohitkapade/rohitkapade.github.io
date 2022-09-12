@@ -52,9 +52,27 @@
                        </p>
 
                        <div class="tabTitle">
-                        <p class="tablink activelink">My Skills</p>
-                        <p class="tablink">Education</p>
-                        
+                            <p class="tablink activelink" onclick="opentab('skills')">My Skills</p>
+                            <p class="tablink" onclick="opentab('expirence')">Education</p>
+                       </div>
+                       <div class="tabContent active_tab" id="skills">
+                            <ul id="skill" >
+                                <img src="images/java.png" alt="">
+                                <img src="images/js.png" alt="">
+                                <img src="images/spring.png" alt="">
+                                <img src="images/hibernate.png" alt="">
+                                <img src="images/mysql.png" alt="">
+                                <img src="images/css.png" alt="">
+                                <img src="images/htmll.png" alt="">
+                                <img src="images/git.png" alt="">
+                            </ul>
+                       </div>
+                       <div class="tabContent" id="expirence">
+                            <ul>
+                                <li><span>Mar 2022 - Nov 2022</span><br> Web development course at Masai,Banglore</li>
+                                <li><span>June 2017 - June 2021</span><br> B.Tech (Food Technology) at M.P.K.V university, Rahuri</li>
+                                <li><span>June 2015 - May 2017</span><br> HSC at Nashik</li>
+                            </ul>
                        </div>
                 </div>
             </div>
@@ -62,3 +80,23 @@
     </div>
 </body>
 </html>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tablink");
+    var tabcontents = document.getElementsByClassName("tabContent")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("activelink");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active_tab");
+        }
+
+        event.currentTarget.classList.add("activelink");
+        document.getElementById(tabname).classList.add("active_tab");
+    }
+
+</script>
