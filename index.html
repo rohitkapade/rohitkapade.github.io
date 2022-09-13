@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Document</title>
     
 </head>
@@ -11,16 +12,24 @@
 
                                         <!-- NAVBAR SECTION  -->
     <div id="navbar">
+        
         <nav>
-            <img id="im" src="images/rohitLogo.jpg" alt="">
-            <ul>
-                <li> <a href="">About</a></li>
+         
+                <!-- <img id="im" src="images/rohitLogo.jpg" alt=""> -->
+                
+         
+            <ul id="sidemenu">
+                <li style="margin-top: 60px;"> <a href="">About</a></li>
                 <li> <a href="">My Skills</a></li>
                 <li> <a href="">Projects</a></li>
                 <li> <a href="">Contacts</a></li>
-                <button>Resume</button>
+                <li> <a href="">Resume</a></li>
+                <!-- <button>Resume</button> -->
+                <i style="margin-left:-15px  ; margin-top:15px ;" class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
             </ul>
+            <i id="menu" style="margin : 20px 0px 0px 20px;" class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
+        
     </div>
 
                                             <!-- Header section -->
@@ -30,7 +39,7 @@
         <div class="header_text">
             <p>Hi, my name is</p>
             <h1>Rohit Kapade</h1>
-            <h3>I like to code</h3>
+            <h3>I am Java Backend Developer</h3>
         </div>
     </div>
    </div>
@@ -78,6 +87,39 @@
             </div>
         </div>
     </div>
+
+    <div id="Project">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/myntra.png" alt="">
+                    <div class="layer">
+                        <h3>Myntra - Clone</h3>
+                        <p>It is clone of an E-commerse website. It was a group project of 5 members completed in 5 days.</p>
+                        <a href="https://lucent-gumdrop-b9167e.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/sendinblue.png" alt="">
+                    <div class="layer">
+                        <h3>Sendinblue - Clone</h3>
+                        <p>It is clone of an  Digital Marketing website. It was a group project of 3 members completed in 4 days.</p>
+                        <a href="https://deluxe-cannoli-7d7685.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/customFun.png" alt="">
+                    <div class="layer">
+                        <h3>Custom array application</h3>
+                        <p></p>
+                        <a href="https://deluxe-cannoli-7d7685.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 
@@ -98,5 +140,35 @@
         event.currentTarget.classList.add("activelink");
         document.getElementById(tabname).classList.add("active_tab");
     }
+
+    
+
+
+    var navbar = document.getElementById("navbar");
+
+    window.onscroll=function(){
+       navbar.classList.add("sticky");
+    }
+
+</script>
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+var menu = document.getElementById("menu");
+
+function openmenu(){
+    sidemenu.style.right="0";
+ 
+}
+
+function closemenu(){
+    sidemenu.style.right="-200px";
+    
+
+}
+
+
+
 
 </script>
