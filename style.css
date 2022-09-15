@@ -809,3 +809,11 @@ footer span a:hover {
   border-radius: 5px;
   padding: 0px 8px 0px 8px;
 }
+
+
+
+.calendar{
+  width: 60%;
+  margin-bottom: 100px;
+  height: auto;
+}

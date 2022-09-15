@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rohit Kapade - Portfolio </title>
     <!-- <link rel="icon" type="image/x-icon" href="images/"> -->
+    <link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -162,6 +166,13 @@
             </div>
         </div>
     </section>
+
+
+
+    <div class="calendar">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+    </div>
 
     <!-- project section start -->
     <section class="project" id="project">
@@ -390,3 +401,14 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
+
+<script
+src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+
+
+<script>
+    GitHubCalendar(".calendar", "rohitkapade");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "rohitkapade", { responsive: true });
+</script>
