@@ -320,6 +320,7 @@ section .title::after {
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   transition: all 0.3s ease;
+  
 }
 .skills .title::after {
   content: "what i know";
@@ -332,6 +333,9 @@ section .title::after {
   height: 60vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  /* ------------------------------------------- */
+  
 }
 .skills .skills-content .left .text {
   font-size: 20px;
@@ -740,6 +744,36 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+
+  .skills-images h3{
+    margin-left: 60px;
+  }
+  
+  .skills-images img{
+
+    width: 80%;
+   height: 100px;
+  }
+
+ 
+  .skills-content{
+    margin-left: -37px;
+    /* height: 1000px; */
+   
+    width: 100%;
+  }
+
+  .skills .skills-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .calendar{
+    width: 80%;
+ 
+  }
+  
+  
 }
 
 
@@ -817,3 +851,14 @@ footer span a:hover {
   margin-bottom: 100px;
   height: auto;
 }
+
+.skills-images h3{
+  text-align: center;
+}
+
+.skills-images img{
+  margin-left: 50px;
+}
+
+
+
