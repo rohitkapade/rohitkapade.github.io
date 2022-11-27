@@ -10,6 +10,10 @@
   })(window,document,'script','dataLayer','GTM-5BB8W2X');</script>
   <!-- End Google Tag Manager -->
   <link rel="icon" type="image/png" href="/favicon.png"/>
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -432,7 +436,23 @@
         </div>
       </div>
     </div>
+
+    
+  <div style="margin-bottom:100px ;">
+    <!-- <div style="width:75%; margin-top:150px; margin: centre;" ;> -->
+      <h2 style="text-align:center ; margin-bottom: 50px;">My Github Contribution Calender</h2>
+  <!-- </div> -->
+      <div class="calendar" style="width:75% ;" >
+         
+          <!-- Loading stuff -->
+          Loading the data just for you.
+      </div>
+  </div>
   </section>
+
+
+
+
 
   <!-- End Skills Section -->
 
@@ -548,3 +568,16 @@
 </body>
 
 </html>
+
+
+<script
+src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+
+
+<script>
+    GitHubCalendar(".calendar", "rohitkapade");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "rohitkapade", { responsive: true });
+</script>
+
