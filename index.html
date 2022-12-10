@@ -2,572 +2,753 @@
 <html lang="en">
 
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5BB8W2X');</script>
-  <!-- End Google Tag Manager -->
-  <link rel="icon" type="image/png" href="/favicon.png"/>
-  <link
-  rel="stylesheet"
-  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Personal Portfolio</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167131966-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+        gtag('config', 'UA-167131966-1');
+    </script>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Google AdSense Code -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9601988319326794"
+        crossorigin="anonymous">
+        </script>
 
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Rohit Kapade's Personal Portfolio Website">
+    <meta name="keywords"
+        content="rahul bordoloi, onepage, developer, resume, cv, personal, portfolio, personal resume, clean, modern, machine learning, ml, dl, deep learning, software, engineering, software engineering, sde, java, c++, python">
+    <meta name="author" content="Rohit Kapade">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <!--load all styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    gtag('config', 'UA-169007209-3');
-  </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WNXJN5W');
+        gtag('config', 'UA-167131966-1');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!--Template name-->
+    <title>Rohit's Portfolio</title>
+    <!-- add icon link -->
+    <!--Favicon-->
+    <link rel="icon" href="favicon/android-chrome-512x512.png" , type="image/x-icon/gif" sizes="16x50">
+    <link rel="manifest" href="favicon/manifest.json">
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!--Font Awesome css-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Animated headline css-->
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+
+    <!--Owl carousel css-->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+
+    <!--Magnific popup css-->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!--line icon css-->
+    <link rel="stylesheet" href="css/line-icons.min.css">
+
+    <!--Theme css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Responsive css-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- qfor calender -->
+    <!-- Include the library. -->
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
 
 
-  <!-- =======================================================
-  * Template Name: Personal - v2.1.0
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <!-- for activity -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="./github-activity.css">
+
+    <!-- <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="./github-activity.js"></script> -->
+
+    <!-- For forkaweso-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+        integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+
+        <link rel="icon" type="image/png" href="/favicon.png"/>
+        <link
+        rel="stylesheet"
+        href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+      />
+
 </head>
 
 <body>
-  
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <!-- ======= Header ======= -->
-  <header id="header" class="header-tops">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNXJN5W" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-    <div class="container">
+    <!--Preloader starts-->
 
-      <h1><a href="index.html">Rohit Kapade</a></h1>
-      <h2 style="color:#fff">I'm <span class="typing" style="color:#12D640"></span></h2>
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#header"> <span>Home</span></a></li>
-          <li><a href="#about"><span>About</span></a></li>
-          <li><a href="#education"> <span>Education</span></a></li>
-          <!-- <li><a href="#experience"> <span>Experience</span></a></li> -->
-<!--          <li><a href="#projects"> <span>Projects</span></a></li>-->
-          <li><a href="#portfolio"> <span>Projects</span></a></li>
-          <li><a href="#skills"> <span>Skills</span></a></li>
-          <li><a href="https://drive.google.com/file/d/1zLiqADoTIDCdIhsaiFzT992EGKqH1XKu/view" target="_blank"> <span>Resume</span></a></li>
-          <!-- <li><a href="#links"> <span>Resume & Links</span></a></li> -->
-          <li><a href="#contacts"> <span>Contact</span></a></li>
-
-        </ul>
-      </nav><!-- .nav-menu -->
-
-      <div class="social-links">
-          <a href="https://www.linkedin.com/in/rohit-kapade-625358220/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://www.github.com/rohitkapade" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-          <a href="mailto:rohitkapade1512@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
-
-      </div>
-
+    <div class="loader_bg">
+        <div class="loader"></div>
     </div>
-  </header><!-- End Header -->
 
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
+    <!--Preloader ends-->
 
-    <!-- ======= About Me ======= -->
-    <div class="about-me container">
+    <!--Navigation area starts-->
 
-      <div class="section-title">
-        <h2>About</h2>
-      </div>
+    <header class="nav-area navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <!--main menu starts-->
 
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/rohitpic.jpg" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <p>Determined and diligent individual having Backend development skills as well as enough knowledge of frontend as well. Have solved 300+ Data structure problems to enhance problem solving ability and worked on 30+ assignments to polish and strengthen coding skills. Looking forward for an organization where I can effectively contribute with my skills.
-          </p>
-          <!-- <div class="row">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 12 October 1996</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +1 480-401-8112</li>
-              </ul>
+                <div class="col-md-12">
+                    <div class="main-menu">
+                        <div class="navbar navbar-cus">
+                            <div class="navbar-header">
+                                <span class="logo"><span>Rohit Kapade</span></span>
+                                <!--change logo name-->
+                                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                    data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+
+                            <div class="navbar-collapse collapse">
+                                <nav>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="active"><a class="smooth-menu" href="#home">Home</a></li>
+                                        <li><a class="smooth-menu" href="#about">About</a></li>
+                                        <li><a class="smooth-menu" href="#services">Skills</a></li>
+                                        <li><a class="smooth-menu" href="#PROJECT">Projects</a></li>
+                                        <li><a class="smooth-menu" href="#contact">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--main menu ends-->
             </div>
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Tempe, AZ</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> rohitkapade@gmail.com</li>
-              </ul>
+        </div>
+    </header>
+
+    <!--Navigation area ends-->
+
+    <!--Banner area starts-->
+
+    <div class="banner-area" id="home">
+        <div id="particles-js"></div>
+        <div class="banner-table">
+            <div class="banner-table-cell">
+                <div class="welcome-text">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                                <section class="intro animate-scale">
+
+                                    <div class="img-area">
+                                        <img src="images/rohit/rohitshort.png" alt="">
+                                        <!--edit image-->
+                                    </div>
+
+                                    <h3>I'm Rohit Kapade</h3>
+
+                                    <h1 class="ah-headline">
+
+                                        <span class="ah-words-wrapper">
+                                            <b class="is-visible">Java Developer</b>
+                                            
+                                          
+                                            <b>Dreamer</b>
+                                        </span>
+                                    </h1>
+
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li><a href="https://www.linkedin.com/in/rahulKAPADE" target="_blank"
+                                                    title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="https://www.github.com/rohitkapade" target="_blank"
+                                                    title="Github"><i class="fa fa-github"></i></a></li>
+
+                                        </ul>
+                                    </div>
+
+
+                                </section>
+
+                                <div class="clearfix"></div>
+
+                                <a class="mouse-scroll hidden-xs dadada" href="#about">
+                                    <span class="mouse">
+                                        <span class="mouse-movement"></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div> -->
         </div>
-      </div>
+    </div>
 
-    </div><!-- End About Me -->
+    <!--Banner area ends-->
 
-    <!-- ======= Interests ======= -->
-    <div class="interests container">
+    <!--About area starts-->
 
-      <div class="section-title">
-        <h2>Interests</h2>
-      </div>
+    <div class="about-area section-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="stack">
+                        <img src="images/rohit/rohitpic.jpg" alt="about image">
+                    </div>
+                </div>
+                <div class="col-md-7 col-md-offset-1 col-sm-12">
+                    <div class="about-right">
+                        <h2>Full Stack Java Developer</h2>
+                        <p>I am <span>Rohit Kapade</span>.
+                        <p>Determined and diligent individual having Backend development skills as well as enough knowledge of frontend as well. Have solved 300+ Data structure problems to enhance problem solving ability and worked on 30+ assignments to polish and strengthen coding skills. Looking forward for an organization where I can effectively contribute with my skills.
 
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <i class="ri-global-line" style="color: #ffbb2c;"></i>
-            <h3>Software Development</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-database-2-line" style="color: #5578ff;"></i>
-            <h3>Data Structures</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-book-3-line" style="color: #e80368;"></i>
-            <h3>Reading</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <i class="ri-camera-3-line"  style="color: #1c7d32;"></i>
-            <h3>Photography</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-image-line" style="color: #28a745;"></i>
-            <h3>Sports</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-bar-chart-box-line" style="color: #f1081f;"></i>
-            <h3>Visualization</h3>
-          </div>
-        </div>
-        <!-- <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-file-list-3-line" style="color: #47aeff;"></i>
-            <h3>Algorithms</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-image-line" style="color: #ffc107;"></i>
-            <h3>Image Processing</h3>
-          </div>
-        </div> -->
-      </div>
+                        </p>                      
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul class="about-list">
+                                    <!-- <b>Education</b> -->
+                                    <!-- <li> <span class="title">College</span> <span class="value">MPKV University, Rahuri (2021)</span> </li> -->
+                                    <!-- <li> <span class="title"></span> <span class="value">MPKV University, Rahuri (2021)</span> </li> -->
 
-    </div><!-- End Interests -->
-  </section><!-- End About Section -->
+                                </ul>
+                            </div>
+                            <!-- <div class="col-sm-6">
+                                <ul class="about-list">
+
+                                    <li> <span class="title">Email</span> <span
+                                            class="value">rahulbordoloi24@gmail.com</span> </li>
+                                </ul>
+                            </div> -->
+                        </div>
 
 
-
-  <!-- ======= Education Section ======= -->
-  <section id="education" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Education</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-12" data-aos="fade-up" style="display: inline-block;">
-
-
-            <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom: 5px;display: inline-block;">
-              <img src="assets/img/masai.png" class="img-fluid" alt="">
-              <!-- <h4 style="text-align:left;"><a href="https://www.asu.edu/" target="_blank" style="color:#12d640">Arizona State University</a><br> </h4> -->
-              <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>Web Development</em></p>
-              <h5 style="text-align:left;padding: 0px 10px;">March 2022 - Present</h5>
-              <h6 style="text-align:left;color:#fff;padding: 0px 10px;">Relevant Coursework</h6>
-              <ul style="text-align:left;color:#fff;">
-                <li>Developing Frontend Websites</li>
-                <li>Creating scalable backend sites</li>
-                <li>Creating REST API's</li>
-                <li>Data Structures and Algorithms</li>
-                <li>Database Management Systems</li>
-              </ul>
+                        <a href="#skills-bd" class="skill-btn btn-a">my skills</a>
+                        <a href="https://drive.google.com/file/d/1zLiqADoTIDCdIhsaiFzT992EGKqH1XKu/view"
+                            target="_blank" class="down-btn btn-a">Resume</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom: 5px;display: inline-block;">
-              <img src="assets/img/Mahatma_Phule_Krishi_Vidyapeeth_logo.jpg" class="img-fluid" alt="">
-              <!-- <h4 style="text-align:left;"><a href="https://ahduni.edu.in/" target="_blank" style="color:#12d640">Ahmedabad University</a><br> </h4> -->
-              <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>B.Tech. in Food Technology</em></p>
-              <h5 style="text-align:left;padding: 0px 10px;">July 2017 - May 2021</h5>
-              <h6 style="text-align:left;color:#fff;padding: 0px 10px;">Relevant Coursework</h6>
-              <ul style="text-align:left;color:#fff;">
-                <!-- <li>Data Structures &amp; Algorithms</li> -->
-                <li>Studing composition of Food</li>
-                <!-- <li>Operating Systems</li> -->
-                <li>Quality and Taste enhancement of Food using Tech support</li>
-                <li>Application of SOP on Food Industry</li>
-                <!-- <li>Computer Vision</li> -->
-              </ul>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
+
+    <!--About area ends-->
 
 
-    <!-- <div class="portfolio">
-    <div class="container">
-      <div class="section-title">
-        <h2>Online Certification</h2>
-      </div> -->
+   
 
-
-
-  </section>
-  <!-- End Education Section -->
-
-
-
-  <!-- Start Experience Section -->
-
-  
-
-
-
-  <!-- Start Project Section -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Projects</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-BE">Backend</li>
-            <li data-filter=".filter-FE">Frontend</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-BE">
-          <center><h4>STS Cart - Seller to Source</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/projects/sts1.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="projects/twitteranalysis.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-FE">
-          <center><h4>Myntra-Clone</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/projects/myntra1.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="projects/iras.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-BE">
-          <center><h4>Online Auction System</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/projects/auction.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="projects/musicplayer.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-FE">
-          <center><h4>Sendinblue-Clone</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/projects/sendinblue.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="projects/recommender.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>To-Do App</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/todo.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/todo.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-      
-
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <br>
-          <center><h4>Tech Blog</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/blog.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/blog.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-          <center><h4>Video Description Generator</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/vdg.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/vdg.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>ML-DL Web-App</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/ml.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/ml.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-        
-
+    <!--Services area starts-->
     
-
-      </div>
-    </div>
-  </section>
-
-  <!-- End Project Section -->
-
-
-
-  <!-- Start Skills Section -->
-
-  <section id="skills" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Skills</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-12" data-aos="fade-up">
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="background:#fff">
-            <h4 style="text-align:left;color:#09203a">Languages and Databases</h4>
-                <p style="text-align:left;">
-                  <img src="assets\img\java.svg" alt="vectorlogo.zone" height="50" width="100">
-                  <img src="assets/img/javascript.svg" alt="vectorlogo.zone" height="50" width="100">
-                  <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="upload.wikimedia.org" height="50" width="100">
-                  <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="vectorlogo.zone" height="50" width="100">
-               
-
-                </p>
+    <div class="services-area section-padding" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>My <span>Services</span></h2>
+                </div>
             </div>
-            <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100" style="background:#fff">
-              <h4 style="text-align:left;color:#09203a">Frameworks</h4>
-                <p style="text-align:left;">
-                  <img src="assets/img/hibernate1.png" alt="vectorlogo.zone"  height="60" width="60">
-       
-                  <img style="margin-left:25px" src="assets/img/spring1.png" alt="vectorlogo.zone"  height="60" width="60">
-                  <img style="margin-left:25px" src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg" alt="vectorlogo.zone"  height="60" width="60">
-                  
-              </p>
-          </div>
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100" style="background:#fff">
-              <h4 style="text-align:left;color:#09203a">Tools</h4>
-                <p style="text-align:left;">
-                  <img  src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="vectorlogo.zone" height="60" width="100">
-                  <img  src="assets/img/aws.svg" alt="vectorlogo.zone" height="60" width="60">
-                  <img  src="assets/img/vscode.jpg" alt="vectorlogo.zone" height="60" width="60">
-                  <img  src="assets/img/sts.jpeg" alt="vectorlogo.zone" height="60" width="60">
-                  
-              </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    
-  <div style="margin-bottom:100px ;">
-    <!-- <div style="width:75%; margin-top:150px; margin: centre;" ;> -->
-      <h2 style="text-align:center ; margin-bottom: 50px;">My Github Contribution Calender</h2>
-  <!-- </div> -->
-      <div class="calendar" style="width:75% ;" >
+            <div class="row">
          
-          <!-- Loading stuff -->
-          Loading the data just for you.
-      </div>
-  </div>
-  </section>
-
-
-
-
-
-  <!-- End Skills Section -->
-
-
-
-
-  <!-- Start Links section -->
-  <section id="links" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Resume & Links</h2>
-      </div>
-      <div class="row">
-        <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-          <a href="https://drive.google.com/drive/u/0/my-drive" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
-          <h4 class="title"><a href="https://drive.google.com/drive/u/0/my-drive" target="_blank">Resume</a></h4>
-          <p class="description" style="color:#fff;">The link contains downloadable resume</p>
-        </div>
-        <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up">
-          <a href="https://github.com/rohitkapade/LeetCode_Problems" target="_blank"><div class="icon"><i class="icofont-link"></i></div></a>
-          <h4 class="title"><a href="https://github.com/rohitkapade/LeetCode_Problems" target="_blank">LeetCode Repository</a></h4>
-          <p class="description" style="color:#fff;"> The github repository contains leetcode problems solution in python.</p>
-        </div>
-        <!-- <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-          <a href="https://techingenious.herokuapp.com/" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
-          <h4 class="title"><a href="https://techingenious.herokuapp.com/" target="_blank">Blog</a></h4>
-          <p class="description" style="color:#fff;">Blog containing articles on AI, coding, development</p>
-        </div> -->
-      </div>
-    </div>
-  </section> <!--End Links Section -->
-
-
-  <!-- Start Contact Section -->
-
-  <section id="contacts" class="contact">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Contact</h2>
-      </div>
-
-      <div class="row mt-2">
-
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>At post Khalane</p>
-            <p>Dist. Dhule, Maharashtra</p>
-            <p>India, pin.425407</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a href="https://www.linkedin.com/in/rohit-kapade-625358220/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              <a href="https://www.github.com/rohitkapade" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-              <a href="mailto:rohitkapade1512@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
-              <a href="https://www.instagram.com/rohitt_5165/?next=%2F" target="_blank" class="google"><i class="bx bxl-instagram"></i></a>
+                <div class="col-md-4 col-sm-6 service">
+    
+                    <div class="service-box">
+                        <span class="after"></span>
+                        <span class="before"></span>
+                        <div class="service-icon">
+                            <i class="icon-gears"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Back End Development</h4>
+                            <p>Using Spring Boot, Hibernate, SpringMVC</p>
+                        </div>
+                    </div>
+    
+    
+                </div>
+           
+                <div class="col-md-4 col-sm-6 service">
+                    <div class="service-box">
+                        <span class="after"></span>
+                        <span class="before"></span>
+                        <div class="service-icon">
+                            <i class="icon-browser"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Front-End Development</h4>
+                            <p>Using HTML, CSS, JavaScript</p>
+                        </div>
+                    </div>
+    
+                </div>
+              
+    
+                <div class="col-md-4 col-sm-6 service">
+                    <div class="service-box">
+                        <span class="after"></span>
+                        <span class="before"></span>
+                        <div class="service-icon">
+                            <i class="icon-puzzle"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Code Optimization</h4>
+                            <p>Using Data Structures and Algorithm</p>
+                        </div>
+                    </div>
+    
+                </div>
+    
             </div>
-          </div>
         </div>
-
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email</h3>
-            <p>rohitkapade1512@gmail.com</p>
-            
-          </div>
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Contact</h3>
-            <p>+91 9834199340</p>
-          </div>
-        </div>
-      </div>
-      <!-- <div id="sfczmlqxr5caww28rswrt8849ghbekgnh3j" ></div><script type="text/javascript" src="https://counter1.stat.ovh/private/counter.js?c=zmlqxr5caww28rswrt8849ghbekgnh3j&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free web counter"><img src="https://counter1.stat.ovh/private/freecounterstat.php?c=zmlqxr5caww28rswrt8849ghbekgnh3j" border="0" title="free web counter" alt="free web counter" style="visibility: none;"></a></noscript> -->
     </div>
-  </section>
+    
+    <!--Services area ends-->
+    
+    <!--Skills area starts-->
+    
+    <div id="skills-bd" class="skills-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Other <span>Skills</span></h2><br>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">MySQL</h4>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Java (Core)</h4>
+                </div>
+            </div>
+    
+          
+    
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">HTML5</h4>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">CSS3</h4>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">JavaScript</h4>
+                </div>
 
-  <!-- End Contact Section -->
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Restful APIs</h4>
+                </div>
+            </div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: [ "Dreamer", "Java Developer"],
-      loop: true,
-      typeSpeed: 65,
-      backSpeed: 65
-    });
-  </script>
+    
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">JDBC</h4>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Git</h4>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Spring MVC</h4>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Hibernate</h4>
+                </div>
+            </div>
+    
+             <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Swagger UI</h4>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Postman</h4>
+                </div>
+            </div>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Data Structure</h4>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Spring Boot</h4>
+                </div>
+            </div>
+    
+    
+        </div>
+    
+    </div>
+    
+    
+    <!--Skills area ends-->
+
+
+    <!-- Projects Section -->
+
+    <div id="PROJECT" class="projects-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>My <span>Projects</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="projects-content">
+            <div class="projects-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul class="port-nav-list">
+                                <li><a class="img-filter active" data-filter="*">All</a></li>
+                                <li><a class="img-filter" data-filter=".ml">Backend End</a></li>
+                                <li><a class="img-filter" data-filter=".int">Front End</a></li>
+                              
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                </br>
+                </br>
+                <!--<div class="col-md-6">-->
+                <div class="row port-items" id="img-filter" style="position: relative; height: 570px;">
+
+
+                    <div class="col-xs-12 single-port ml" style="position: absolute; left: 0px; top: 0px;">
+                        <ul class="resumes">
+                            <li class="resume-item expr">
+                                <img src="images/rohit/stslogo.PNG" alt="Avatar"
+                                    class="w3-left w3-circle w3-margin-right" style="width:170px; height: 170px;">
+                                    
+                                <p><span class="w3-large w3-margin-right"><b>STS Cart - Seller to Source</b></span></p>
+                                <p><i>Backend Project</i></br>
+                                    <p>
+                                        A backend project of Selling and buying products digitally. A group project created with keeping in mind the scalability of the userbase.   
+                                    </p>
+                                      <p><b >Tech Stack :</b> Spring Boot | Hibernate | JPA | AWS | SQL</p>
+                                    <p >
+                                         <b >Responsibility :</b>  Add to Cart section.
+                                    </p>
+                                    <p><b >Links :</b> <a href="https://github.com/rohitkapade/Online-Shopping-System" target="_blank"
+                                        title="Github">Github link</a></p>
+                                    <p>Project was completed in 5 days by group of 4 members.</p>
+
+                               
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-xs-12 single-port int" style="position: absolute; left: 0px; top: 0px;">
+                        <ul class="resumes">
+                            <li class="resume-item expr">
+                                <img src="images/rohit/Myntralogo.jpg" alt="Avatar"
+                                    class="w3-left w3-circle w3-margin-right" style="width:170px; height: 170px;">
+                                    <p><span class="w3-large w3-margin-right"><b>Myntra - Clone</b></span></p>
+                                    <p><i></i></br>
+                                        <p>
+                                            It project is an attempt to clone famous E-Commerce website. Frontend part was tried to make same as more as possible.
+                                          <p><b >Tech Stack :</b> HTML | CSS | JavaScript | Bootstrap</p>
+                                        <p >
+                                             <b >Responsibility :</b>  Product page, Checkout page 
+                                        </p>
+                                        <p><b >Links :</b> <a href="https://github.com/rohitkapade/Myntra-clone" target="_blank"
+                                            title="Github">Github link</a>,<span></span><a href="https://lucent-gumdrop-b9167e.netlify.app/">Live Project</a></p>
+                                        <p>Project was completed in 5 days by group of 4 members.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-xs-12 single-port ml" style="position: absolute; left: 0px; top: 0px;">
+                        <ul class="resumes">
+                            <li class="resume-item expr">
+                                <img src="images/rohit/1 m9sSpxg6bsRgOZF7Rbyokw.png" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                                    style="width:170px; height: 170px;">
+                              
+                                    <p><span class="w3-large w3-margin-right"><b>Automated Auction System</b></span></p>
+                                    <p><i></i></br>
+                                        <p>
+                                            A console based project aimed at learning basics of Java database Connectibity and communication with database.
+
+                                            The application allows seller to register sell and buyer to buy products. All this uses databases to access information.
+                                        </p>
+                                          <p><b >Tech Stack :</b> Java | JDBC | SQL</p>
+                                        <p >
+                                             <b >Responsibility :</b>  Individual project. 
+                                        </p>
+                                        <p><b >Links :</b> <a href="https://github.com/rohitkapade/Automated-Auction-System" target="_blank"
+                                            title="Github">Github link</a></p>
+                                        <p>Completed within 5 days of timeperiod.</p>
+    
+                                   
+                            </li>
+                        </ul>
+                    </div>
+
+                  
+
+                    <div class="col-xs-12 single-port int" style="position: absolute; left: 0px; top: 0px;">
+                        <ul class="resumes">
+                            <li class="resume-item expr">
+                                <img src="images/rohit/sendinblue1.jpg" alt="Avatar"
+                                class="w3-left w3-circle w3-margin-right" style="width:170px; height: 170px;">
+                                <p><span class="w3-large w3-margin-right"><b>Sendinblue - Clone</b></span></p>
+                                <p><i></i></br>
+                                    <p>
+                                        This website is the clone of Digital marketing site. Mostly a static website. Our aim was to make it as eye-pleasing as possible.
+                                      <p><b >Tech Stack :</b> HTML | CSS | JavaScript | Bootstrap</p>
+                                    <p >
+                                         <b >Responsibility :</b>  Signup-Login feature, Header-Footer 
+                                    </p>
+                                    <p><b >Links :</b> <a href="https://github.com/anchal275/SendInBlue-Clone-" target="_blank"
+                                        title="Github">Github link</a>,<span></span><a href="https://deluxe-cannoli-7d7685.netlify.app/">Live Project</a></p>
+                                    <p>Project was completed in 5 days by group of 4 members.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+            <h6>
+                <center>For more Projects, visit my <a href="https://github.com/rohitkapade" target="_blank"
+                        class="w3-hover-text-green">Github Profile</a>.</center>
+            </h6>
+        </div>
+    </div>
+    <!-- End Projects Section -->
+
+    <!--Statistic area starts-->
+
+
+
+    <!--Github Section-->
+
+    <div style="margin-bottom:100px ;">
+        <!-- <div style="width:75%; margin-top:150px; margin: centre;" ;> -->
+          <h2 style="text-align:center ; margin-bottom: 50px;">Github Activities</h2>
+      <!-- </div> -->
+          <div class="calendar" style="width:75% ;" >
+             
+              <!-- Loading stuff -->
+              Loading the data just for you.
+          </div>
+      </div>
+      </section>
+
+    </div>
+    </div>
+    </div>
+
+    <!--Github Area Ends-->
+
+    <!-- Commented out for Security -->
+    
+    <!--Contact Area Starts-->
+    <div id="contact" class="contact-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>My <span>Contact</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 box-contact-form">
+
+                    <div class="map-responsive">
+                        <iframe
+                            src="https://maps.google.com/maps?q=khalane&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+
+                </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1">
+                <div class="right-contact">
+                    <div class="right-contact-text">
+                        <i class="fa fa-map-marker"></i>
+                        <h2>Current Address</h2>
+                        <p>Dhule, Maharashtra, India</p>
+    <!--edit here-->
+    </div>
+    <div class="right-contact-text">
+                            <i class="fa fa-phone"></i>
+                            <h2>Contact Number</h2>
+                            <p>+91-9834199340</p>
+                            <!--edit here-->
+    </div>
+    <div class="right-contact-text">
+                            <i class="fa fa-envelope"></i>
+                            <h2>E - Mail</h2>
+                            <p>
+                                rohitkapade1512@gmail.com
+                            </p>
+    <!--edit here-->
+    </div>
+                    </div>
+                </div>
+
+    </div>
+    </div>
+    </div>
+
+    <!--Contact Area Ends-->
+
+    <!--Footer Area Starts-->
+
+    <div class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <a href="#" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the
+                        top</a>
+                    <br>
+                    <br>
+                    <p>&copy; All Rights Reserved By<a href="https://www.linkedin.com/in/rohit-kapade-625358220/" target="_blank"
+                            class="w3-hover-text-green"> Rohit Kapade</a> (2022)</p>
+                    <!--edit here-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer Area Ends-->
+
+
+
+    <!--Latest version JQuery-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!--Bootstrap js-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--Animated headline js-->
+    <script src="js/jquery.animatedheadline.js"></script>
+
+    <!--Magnific popup js-->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!--Validator js-->
+    <script src="js/jquery.waypoints.js"></script>
+
+    <!--Counter up js-->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!--imagesloaded js-->
+    <script src="js/imagesloaded.min.js"></script>
+
+    <!--isotope js-->
+    <script src="js/isotope.pkgd.min.js"></script>
+
+    <!--Owl Carousel js-->
+    <script src="js/owl.carousel.js"></script>
+
+    <!--Validator js-->
+    <script src="js/validator.js"></script>
+
+    <!--Contact js-->
+    <script src="js/contact.js"></script>
+
+    <!--particles js-->
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+
+    <!--Main js-->
+    <script src="js/main.js"></script>
+
+    <!--Github js-->
+    <script>
+        GitHubCalendar(".calendar", "rohitkapade");
+
+        // or enable responsive functionality:
+        //GitHubCalendar(".calendar", "your-username", { responsive: true });
+
+        // Use a proxy
+        //GitHubCalendar(".calendar", "your-username", { proxy (username) { return fetch(`https://your-proxy.com/github?user=${username}`).then(r => r.text()) });
+        GitHubActivity.feed({
+            username: "rohitkapade",
+            // repository: "your-repo", // optional
+            selector: "#feed",
+            limit: 10 // optional
+        });
+    </script>
+
+    <!-- Total Experience Calculator -->
+    <script>
+        let currentDate = new Date();
+        let firstDate = new Date("2020-06-01");
+        var finalDifference = 3 + currentDate.getMonth() - firstDate.getMonth() + (12 * (currentDate.getFullYear() - firstDate.getFullYear()));
+        document.getElementById("expCounter").innerHTML = finalDifference;
+    </script>
 
 </body>
 
 </html>
+
 
 
 <script
@@ -580,4 +761,5 @@ src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
     // or enable responsive functionality
     GitHubCalendar(".calendar", "rohitkapade", { responsive: true });
 </script>
+
 

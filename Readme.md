@@ -1,77 +1,40 @@
-# Personal Portfolio 🔥
-> https://rajaprerak.github.io/
+# My Portfolio & Resume Website.
 
-:star: Star me on GitHub — it helps!
+[![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+[![Setup Automated](https://img.shields.io/badge/setup-automated-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
 
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/rajaprerak/rajaprerak.github.io/commits/master)
-[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://rajaprerak.github.io/)
-[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/rajaprerak/)
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+## Links
 
-### Website Preview
-#### Home Page
-<img src="website_images/HomePage.gif" width="900">
+Check out Live Deployment - https://www.rahulbordoloi.me (via Github Pages) <br>
+Check out my Linkedin Profile - https://www.linkedin.com/in/rahulbordoloi <br>
+Check out my Sourcerer Profile - https://sourcerer.io/rahulbordoloi <br>
+Check out my Stackoverflow Profile - https://meta.stackoverflow.com/users/13598602/rahul-bordoloi <br>
+Check out my Twitch Channel - https://twitch.tv/r07tv <br>
+Check out my Twitter Account - https://twitter.com/DevR07 <br>
+Join my Discord Server - https://discord.gg/z4tjEW9QBg <br>
+Check out my Dev.to Profile - https://dev.to/rahulbordoloi <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Rahul Bordoloi's DEV Profile" height="30" width="30">
+</a> <br>
+<!--- Check out my Medium Blog Post - https://www.medium.com/@rahulbordoloi <br> --->
+<!--- Check out my Instagram Profile - https://instagram.com/rahulbordoloi <br> --->
 
+## Development
 
-#### About Page
-<img src="website_images/AboutPage.png" width="900">
+Technological Stacks used - HTML, CSS, JavaScript, Bootstrap, Google APIs.
 
+Testing Environment Deployment - https://portfolio-test-deployment.netlify.app/ [![Tesing Environment Status](https://api.netlify.com/api/v1/badges/390f1e1d-806f-4fb9-8974-392f2857d63f/deploy-status)](https://app.netlify.com/sites/portfolio-test-deployment/deploys)
+ 
+## Contact Me
 
-#### Projects Page
-<img src="website_images/ProjectPage.png" width="900">
-  
+<!-- Mail me at : mail@rahulbordoloi.me (Professional) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             rahulbordoloi24@gmail.com (Personal) -->
+Mail me at : rahulbordoloi24@gmail.com        
+             
+## Donations
 
-
-:star: Star me on GitHub — it helps!
-
-## Features 📋
-⚡️ Fully Responsive\
-⚡️ Valid HTML5 & CSS3\
-⚡️ Typing animation using `Typed.js`\
-⚡️ Easy to modify
-
-## Installation & Deployment 📦
-- Clone the repository and modify the content of <b>index.html</b> 
-- Add or remove images from `assets/img/` directory as per your requirement.
-- Update the info of `projects` folder according to your need
-- Use [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create your own website.
-- To deploy your website, first you need to create github repository with name `<your-github-username>.github.io` and push the generated code to the `master` branch.
-
-## Sections 📚
-✔️ About\
-✔️ Interests\
-✔️ Education\
-✔️ Online Certification\
-✔️ Experience\
-✔️ Projects \
-✔️ Skills \
-✔️ Resume\
-✔️ Contact Info
-
-
-
-## Tools Used 🛠️
-* <b>GitHub Pages</b> - To host my static website (HTML, CSS, JS).
-
-## Contributing 💡
-#### Step 1
-
-- **Option 1**
-    - 🍴 Fork this repo!
-
-- **Option 2**
-    - 👯 Clone this repo to your local machine.
-
-
-#### Step 2
-
-- **Build your code** 🔨🔨🔨
-
-#### Step 3
-
-- 🔃 Create a new pull request.
-
-## License
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+[Donate in Patreon](https://patreon.com/rahulbordoloi) <br>
+<div>
+  <a class="donate-with-crypto"
+     href="https://commerce.coinbase.com/checkout/c2be6faa-ef33-40ea-9a18-6054fe6d75a0">
+    Donate with Crypto
+  </a>
+</div>
